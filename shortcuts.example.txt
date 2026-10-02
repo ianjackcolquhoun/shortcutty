@@ -1,0 +1,29 @@
+# Shortcut cheat sheet -- the hand-maintained half.
+# Copy to ~/.config/shortcutty/shortcuts.txt and fill it in (by hand or with an
+# agent: see agent/backfill-prompt.md).
+#
+# Hammerspoon hotkeys bound with shortcutty.bind() and Ghostty keybinds are read
+# LIVE -- don't copy them here. A row under [Hammerspoon] or [Ghostty] whose
+# keys match a live binding only renames it (spacing, case and modifier order
+# are ignored).
+#
+# Format:   [Section]   then   keys | description      "#" starts a comment.
+#
+# Keys: macOS symbols in the order ⌃⌥⇧⌘, then the key. Letters uppercase.
+#   arrows ← → ↑ ↓   ↩ return   ⇥ tab   ⌫ delete   Esc   Space   F1…F12
+#   Sequences: separate steps with a space          ⌃Space O
+#   Alternatives: separate with " / "               ⌥⌘← / ⌥⌘→
+# Section names are what you type to filter by app ("chrome", "vs").
+
+[macOS]
+⌘Space         | Spotlight
+⌘⇥             | App switcher
+⌘`             | Next window of current app
+⌃← / ⌃→        | Previous / next Space
+⌃↑             | Mission Control
+⌘H             | Hide app
+⌥⌘Esc          | Force quit
+⌃⌘Q            | Lock screen
+⌃⌘Space        | Emoji & symbols
+⇧⌘4            | Screenshot a region
+⇧⌘.            | Show hidden files (Finder, open/save dialogs)

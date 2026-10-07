@@ -30,7 +30,7 @@ Requires Hammerspoon with Accessibility permission (System Settings → Privacy 
 Security → Accessibility). The popup reads modifier keys while it's open.
 
 ```sh
-git clone https://github.com/<you>/shortcutty.git ~/shortcutty
+git clone https://github.com/ianjackcolquhoun/shortcutty.git ~/shortcutty
 ln -s ~/shortcutty/shortcutty.lua ~/.hammerspoon/shortcutty.lua
 mkdir -p ~/.config/shortcutty
 cp ~/shortcutty/shortcuts.example.txt ~/.config/shortcutty/shortcuts.txt
